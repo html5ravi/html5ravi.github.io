@@ -7,13 +7,13 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/0.878deff9d73f69ecf04a.js",
+        "/0.b48ef777f21d23edf313.js",
         "/favicon.ico",
         "/index.html",
-        "/main.8afa59ce126a663a4a93.js",
+        "/main.575c6a34857deb2e7322.js",
         "/polyfills.92108b287fe28032870b.js",
-        "/runtime.a2f89d9b1296fcafdad3.js",
-        "/styles.d7c6669782740da765d2.css"
+        "/runtime.af5be4f3650a72f3eb63.js",
+        "/styles.52e63abffa416bb558c7.css"
       ],
       "patterns": []
     },
@@ -189,8 +189,9 @@
     {
       "name": "from-api",
       "patterns": [
-        "http:\\/\\/api\\.sttarter\\.com\\/contentsystem\\/cea94caf3b38196b8f0f5cea05a534c9\\/brands\\?orderby_asc=name",
-        "http:\\/\\/api\\.sttarter\\.com\\/contentsystem\\/cea94caf3b38196b8f0f5cea05a534c9\\/categories\\?orderby_asc=title"
+        "https:\\/\\/api\\.sttarter\\.com\\/contentsystem\\/cea94caf3b38196b8f0f5cea05a534c9\\/subcategories\\?orderby_asc=title&associatedcategory\\.title=",
+        "https:\\/\\/api\\.sttarter\\.com\\/contentsystem\\/cea94caf3b38196b8f0f5cea05a534c9\\/brands\\?orderby_asc=name",
+        "https:\\/\\/api\\.sttarter\\.com\\/contentsystem\\/cea94caf3b38196b8f0f5cea05a534c9\\/categories\\?orderby_asc=title"
       ],
       "strategy": "freshness",
       "maxSize": 15,
@@ -200,7 +201,7 @@
     }
   ],
   "hashTable": {
-    "/0.878deff9d73f69ecf04a.js": "8bbe3b2ac2bffef74520c449837f2cd0de9b65d3",
+    "/0.b48ef777f21d23edf313.js": "d969938e353998b766d5e4e32b5a839fbde6c1e1",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -359,11 +360,11 @@
     "/assets/scss/utilities/_text.scss": "666eb58bfc9a3213296acda220ee3b38a88dccd5",
     "/assets/scss/utilities/_visibility.scss": "c2e008b6d93c47ba7593660b942aea51945f6467",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "a4d9884804221ad59f0164885ee6294089704e8d",
-    "/main.8afa59ce126a663a4a93.js": "ff4dddd295325e3a8c9d40f101607f5bd89dfe4c",
+    "/index.html": "c028f5be879a0154491d98324d04750083589e1a",
+    "/main.575c6a34857deb2e7322.js": "2e16bd158f6e04ee1802211817e7fe74cdee4860",
     "/polyfills.92108b287fe28032870b.js": "32ff103404372406dccb69a68c193ef7bea153c0",
-    "/runtime.a2f89d9b1296fcafdad3.js": "ea78f48dd51dddb6b66a8aeb4fe2166f4ce58acc",
-    "/styles.d7c6669782740da765d2.css": "44ea979e7cc2410182d5f4ec46ca04aa723dbd75"
+    "/runtime.af5be4f3650a72f3eb63.js": "0b179fdda46b7dc690938171233443d920980790",
+    "/styles.52e63abffa416bb558c7.css": "e3ce91c84f1c6b416fcf2f26b5b99b0e0157c570"
   },
   "navigationUrls": [
     {

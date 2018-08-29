@@ -7,12 +7,11 @@
  */
 
 // tslint:disable:no-console
-(function() {
-    self.addEventListener('install', event => { self.skipWaiting(); });
 
-    self.addEventListener('activate', event => {
-        event.waitUntil(self.clients.claim());
-        self.registration.unregister().then(
-            () => { console.log('NGSW Safety Worker - unregistered old service worker'); });
-    });
-})();
+self.addEventListener('install', event => { self.skipWaiting(); });
+
+self.addEventListener('activate', event => {
+  event.waitUntil(self.clients.claim());
+  self.registration.unregister().then(
+      () => { console.log('NGSW Safety Worker - unregistered old service worker'); });
+});

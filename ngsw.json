@@ -9,10 +9,10 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.983836e7ee0bcad55de5.js",
+        "/main.e1ebdf1305342bd53b55.js",
         "/polyfills.f6ae3e8b63939c618130.js",
         "/runtime.ec2944dd8b20ec099bf3.js",
-        "/styles.59cfdc0df91293903bf3.css"
+        "/styles.c66c415eece0bd94b2fb.css"
       ],
       "patterns": []
     },
@@ -21,6 +21,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "/assets/css/bootstrap.css",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -30,23 +31,28 @@
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/icon\\?family=Material\\+Icons",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Roboto:300,400,500",
+        "https:\\/\\/maxcdn\\.bootstrapcdn\\.com\\/bootstrap\\/4\\.0\\.0\\/css\\/bootstrap\\.min\\.css"
+      ]
     }
   ],
   "dataGroups": [
     {
       "name": "from-api",
       "patterns": [
-        "\\/"
+        "https:\\/\\/rscs-5d73d\\.firebaseio\\.com"
       ],
       "strategy": "freshness",
-      "maxSize": 15,
+      "maxSize": 100,
       "maxAge": 3600000,
-      "timeoutMs": 5000,
+      "timeoutMs": 10000,
       "version": 1
     }
   ],
   "hashTable": {
+    "/assets/css/bootstrap.css": "d08d5acd4b5f144e5c72520bfc9d0e52845d1012",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -56,11 +62,11 @@
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "2dec654ce5879b64a79209a622366d3da3018fa9",
-    "/main.983836e7ee0bcad55de5.js": "2781aa0ccea1e25c2ae494d91d410d83f58b01ae",
+    "/index.html": "04603288327ad9ca6137a68b4ee83f1096b8b5a4",
+    "/main.e1ebdf1305342bd53b55.js": "632229470c425a5086aaabc382ce830c07350fe9",
     "/polyfills.f6ae3e8b63939c618130.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
     "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.59cfdc0df91293903bf3.css": "3894e6139aebe95f26453200e7d85cde48b8ab34"
+    "/styles.c66c415eece0bd94b2fb.css": "dc007369484aa464e607b386f3f58331581f526d"
   },
   "navigationUrls": [
     {

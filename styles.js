@@ -580,8 +580,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\ra20043636\Documents\GitHub\crud\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
-module.exports = __webpack_require__(/*! C:\Users\ra20043636\Documents\GitHub\crud\src\styles.scss */"./src/styles.scss");
+__webpack_require__(/*! D:\Angular\Practice\crud\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
+module.exports = __webpack_require__(/*! D:\Angular\Practice\crud\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })

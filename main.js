@@ -247,20 +247,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angularfire2_firestore__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(angularfire2_firestore__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var ngx_youtube_player__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ngx-youtube-player */ "./node_modules/ngx-youtube-player/esm5/ngx-youtube-player.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
-/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
-/* harmony import */ var _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pipes/filter.pipe */ "./src/app/pipes/filter.pipe.ts");
-/* harmony import */ var _core_security_safe_url_pipe__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./core/security/safe-url.pipe */ "./src/app/core/security/safe-url.pipe.ts");
-/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm5/ngx-spinner.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
-/* harmony import */ var _core_security_auth_service__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./core/security/auth.service */ "./src/app/core/security/auth.service.ts");
-/* harmony import */ var angularfire2_auth__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! angularfire2/auth */ "./node_modules/angularfire2/auth/index.js");
-/* harmony import */ var angularfire2_auth__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(angularfire2_auth__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var _events_events_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./events/events.component */ "./src/app/events/events.component.ts");
-/* harmony import */ var _pages_tournaments_tournaments_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pages/tournaments/tournaments.component */ "./src/app/pages/tournaments/tournaments.component.ts");
-/* harmony import */ var _pages_players_players_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./pages/players/players.component */ "./src/app/pages/players/players.component.ts");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
+/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pipes/filter.pipe */ "./src/app/pipes/filter.pipe.ts");
+/* harmony import */ var _core_security_safe_url_pipe__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./core/security/safe-url.pipe */ "./src/app/core/security/safe-url.pipe.ts");
+/* harmony import */ var ngx_spinner__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ngx-spinner */ "./node_modules/ngx-spinner/fesm5/ngx-spinner.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
+/* harmony import */ var _core_security_auth_service__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./core/security/auth.service */ "./src/app/core/security/auth.service.ts");
+/* harmony import */ var angularfire2_auth__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! angularfire2/auth */ "./node_modules/angularfire2/auth/index.js");
+/* harmony import */ var angularfire2_auth__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(angularfire2_auth__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _events_events_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./events/events.component */ "./src/app/events/events.component.ts");
+/* harmony import */ var _pages_tournaments_tournaments_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./pages/tournaments/tournaments.component */ "./src/app/pages/tournaments/tournaments.component.ts");
+/* harmony import */ var _pages_players_players_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pages/players/players.component */ "./src/app/pages/players/players.component.ts");
+/* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./shared/shared.module */ "./src/app/shared/shared.module.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -300,66 +300,31 @@ var AppModule = /** @class */ (function () {
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingComponents"],
-                _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_14__["MyFilterPipe"],
-                _core_security_safe_url_pipe__WEBPACK_IMPORTED_MODULE_15__["SafeUrlPipe"],
-                _login_login_component__WEBPACK_IMPORTED_MODULE_18__["LoginComponent"],
-                _events_events_component__WEBPACK_IMPORTED_MODULE_21__["EventsComponent"],
-                _pages_tournaments_tournaments_component__WEBPACK_IMPORTED_MODULE_22__["TournamentsComponent"],
-                _pages_tournaments_tournaments_component__WEBPACK_IMPORTED_MODULE_22__["AppAddDialogComponent"],
-                _pages_players_players_component__WEBPACK_IMPORTED_MODULE_23__["PlayersComponent"]
+                _pipes_filter_pipe__WEBPACK_IMPORTED_MODULE_13__["MyFilterPipe"],
+                _core_security_safe_url_pipe__WEBPACK_IMPORTED_MODULE_14__["SafeUrlPipe"],
+                _login_login_component__WEBPACK_IMPORTED_MODULE_17__["LoginComponent"],
+                _events_events_component__WEBPACK_IMPORTED_MODULE_20__["EventsComponent"],
+                // TournamentsComponent,
+                _pages_tournaments_tournaments_component__WEBPACK_IMPORTED_MODULE_21__["AppAddDialogComponent"],
+                _pages_players_players_component__WEBPACK_IMPORTED_MODULE_22__["PlayersComponent"]
             ],
-            entryComponents: [_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_13__["AppShareDataDialogComponent"], _pages_tournaments_tournaments_component__WEBPACK_IMPORTED_MODULE_22__["AppAddDialogComponent"]],
+            entryComponents: [_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_12__["AppShareDataDialogComponent"], _pages_tournaments_tournaments_component__WEBPACK_IMPORTED_MODULE_21__["AppAddDialogComponent"]],
             imports: [
                 ngx_youtube_player__WEBPACK_IMPORTED_MODULE_10__["YoutubePlayerModule"],
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_17__["HttpClientModule"],
-                ngx_spinner__WEBPACK_IMPORTED_MODULE_16__["NgxSpinnerModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_16__["HttpClientModule"],
+                ngx_spinner__WEBPACK_IMPORTED_MODULE_15__["NgxSpinnerModule"],
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_12__["BrowserAnimationsModule"],
+                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_11__["BrowserAnimationsModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_5__["ReactiveFormsModule"],
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingModule"],
-                // shared module
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatAutocompleteModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatBadgeModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatBottomSheetModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatButtonModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatButtonToggleModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatCardModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatCheckboxModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatChipsModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatDatepickerModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatDialogModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatDividerModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatExpansionModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatGridListModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatIconModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatInputModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatListModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatMenuModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatNativeDateModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatPaginatorModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatProgressBarModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatProgressSpinnerModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatRadioModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatRippleModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatSelectModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatSidenavModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatSliderModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatSlideToggleModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatSnackBarModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatSortModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatStepperModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatTableModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatTabsModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatToolbarModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatTooltipModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_11__["MatTreeModule"],
+                _shared_shared_module__WEBPACK_IMPORTED_MODULE_23__["SharedModule"],
                 // PagesModule,
                 angularfire2__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].firebase, { databaseURL: 'https://rscs-5d73d.firebaseio.com' }),
                 angularfire2_database__WEBPACK_IMPORTED_MODULE_2__["AngularFireDatabaseModule"],
                 _angular_service_worker__WEBPACK_IMPORTED_MODULE_7__["ServiceWorkerModule"].register('ngsw-worker.js', { enabled: _environments_environment__WEBPACK_IMPORTED_MODULE_6__["environment"].production }),
             ],
-            providers: [angularfire2_firestore__WEBPACK_IMPORTED_MODULE_8__["AngularFirestore"], _core_security_auth_service__WEBPACK_IMPORTED_MODULE_19__["AuthService"], angularfire2_auth__WEBPACK_IMPORTED_MODULE_20__["AngularFireAuth"]],
+            providers: [angularfire2_firestore__WEBPACK_IMPORTED_MODULE_8__["AngularFirestore"], _core_security_auth_service__WEBPACK_IMPORTED_MODULE_18__["AuthService"], angularfire2_auth__WEBPACK_IMPORTED_MODULE_19__["AngularFireAuth"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
         })
     ], AppModule);
@@ -840,7 +805,7 @@ module.exports = "/* .dashboard{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n.d
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div mat-dialog-content *ngIf=\"sum\">\n  <table class=\"table table-striped table-dark dashboard_table\">\n    <tr>\n      <th>Players</th>\n      <th>Paid Total</th>\n      <th>Played Total</th>\n      <th>To Pay / Get</th>\n    </tr>\n    <tr *ngFor=\"let item of sum\">\n      <td>\n        <div *ngFor=\"let name of peopleList\">\n          {{item.id == name.id ? name.name:''}}\n        </div>\n      </td>\n      <td>&#8377; {{item.totalPaid | number: '1.1-1'}}</td>\n      <td>&#8377; {{item.totalPlayed | number:'1.1-1'}}</td>\n      <td [ngClass]=\"item.toPay >= 0 ? 'postive':'negative'\">&#8377; {{item.toPay | number:'1.1-1'}}</td>\n    </tr>\n\n  </table>\n</div>\n<!-- <div class=\"mat-elevation-z8\">\n  <table mat-table [dataSource]=\"dataSource\" matSort>\n\n    <!- - Position Column -->\n    <!-- <ng-container matColumnDef=\"position\">\n        <th mat-header-cell *matHeaderCellDef> No. </th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.position}} </td>\n      </ng-container> - ->\n\n    < ! - - Name Column - ->\n    <ng-container matColumnDef=\"when\">\n      <th mat-header-cell *matHeaderCellDef mat-sort-header> Date </th>\n      <td mat-cell *matCellDef=\"let element\"> {{element.when.toDate() | date: 'mediumDate':'asc'}} </td>\n    </ng-container>\n\n    <!- - Weight Column - ->\n    <ng-container matColumnDef=\"courtFee\">\n      <th mat-header-cell *matHeaderCellDef> Amount </th>\n      <td mat-cell *matCellDef=\"let element\">&#8377; {{element.totalAmount}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"id\">\n      <th mat-header-cell *matHeaderCellDef> Action </th>\n      <td mat-cell *matCellDef=\"let element\">\n        <button mat-raised-button (click)=\"showPop(element)\">More</button>\n        <button *ngIf=\"deleteRecord\" mat-raised-button (click)=\"delete(element)\">Delete</button>\n      </td>\n    </ng-container>\n    <! -- Symbol Column -->\n    <!-- <ng-container matColumnDef=\"symbol\">\n        <th mat-header-cell *matHeaderCellDef> Symbol </th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.symbol}} </td>\n      </ng-container> - ->\n\n    <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n    <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n  </table>\n\n  <mat-paginator [pageSizeOptions]=\"[10, 20, 30]\" showFirstLastButtons></mat-paginator>\n</div> -->\n\n<!-- <div mat-dialog-content>\n    <table class=\"table table-stripped\">\n        <tr>\n            <th>Players</th>\n            <th>Court</th>\n            <th>Shuttle</th>\n            <th>Share</th>\n        </tr>\n        <tr *ngFor=\"let item of _datas.shareSheet\">\n            <td>\n                <div *ngFor=\"let name of _datas.people\">\n                    {{item.id == name.id ? name.name:''}}\n                </div>\n            </td>\n            <td>{{item.court}}</td>\n            <td>{{item.shuttle}}</td>\n            <td>{{item.played}}</td>\n        </tr>\n\n    </table>\n</div> -->\n"
+module.exports = "<div mat-dialog-content *ngIf=\"sum\">\n  <table class=\"table table-striped table-dark dashboard_table\">\n    <tr>\n      <th>Players</th>\n      <th>Paid Total</th>\n      <th>Played Total</th>\n      <th>To Pay / Get</th>\n    </tr>\n    <tr *ngFor=\"let item of sum\">\n      <td>\n        <div *ngFor=\"let name of peopleList\">\n          {{item.id == name.id ? name.name:''}}\n        </div>\n      </td>\n      <td>&#8377; {{item.totalPaid | number: '1.1-1'}}</td>\n      <td>&#8377; {{item.totalPlayed | number:'1.1-1'}}</td>\n      <td [ngClass]=\"item.toPay >= 0 ? 'postive':'negative'\">&#8377; {{item.toPay | number:'1.1-1'}}</td>\n    </tr>\n\n  </table>\n</div>\n<div class=\"mat-elevation-z8\">\n  <table mat-table [dataSource]=\"dataSource\" matSort>\n\n    <!-- Position Column -->\n    <!-- <ng-container matColumnDef=\"position\">\n        <th mat-header-cell *matHeaderCellDef> No. </th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.position}} </td>\n      </ng-container> -->\n\n    <!-- Name Column -->\n    <ng-container matColumnDef=\"when\">\n      <th mat-header-cell *matHeaderCellDef mat-sort-header> Date </th>\n      <td mat-cell *matCellDef=\"let element\"> {{element.when.toDate() | date: 'mediumDate':'asc'}} </td>\n    </ng-container>\n\n    <!-- Weight Column -->\n    <ng-container matColumnDef=\"courtFee\">\n      <th mat-header-cell *matHeaderCellDef> Amount </th>\n      <td mat-cell *matCellDef=\"let element\">&#8377; {{element.totalAmount}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"id\">\n      <th mat-header-cell *matHeaderCellDef> Action </th>\n      <td mat-cell *matCellDef=\"let element\">\n        <button mat-raised-button (click)=\"showPop(element)\">More</button>\n        <button *ngIf=\"deleteRecord\" mat-raised-button (click)=\"delete(element)\">Delete</button>\n      </td>\n    </ng-container>\n    <!-- Symbol Column -->\n    <!-- <ng-container matColumnDef=\"symbol\">\n        <th mat-header-cell *matHeaderCellDef> Symbol </th>\n        <td mat-cell *matCellDef=\"let element\"> {{element.symbol}} </td>\n      </ng-container> -->\n\n    <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n    <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n  </table>\n\n  <mat-paginator [pageSizeOptions]=\"[10, 20, 30]\" showFirstLastButtons></mat-paginator>\n</div>\n\n<!-- <div mat-dialog-content>\n    <table class=\"table table-stripped\">\n        <tr>\n            <th>Players</th>\n            <th>Court</th>\n            <th>Shuttle</th>\n            <th>Share</th>\n        </tr>\n        <tr *ngFor=\"let item of _datas.shareSheet\">\n            <td>\n                <div *ngFor=\"let name of _datas.people\">\n                    {{item.id == name.id ? name.name:''}}\n                </div>\n            </td>\n            <td>{{item.court}}</td>\n            <td>{{item.shuttle}}</td>\n            <td>{{item.played}}</td>\n        </tr>\n\n    </table>\n</div> -->\n"
 
 /***/ }),
 
@@ -1782,6 +1747,110 @@ var UploadFileService = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/shared/material.module.ts":
+/*!*******************************************!*\
+  !*** ./src/app/shared/material.module.ts ***!
+  \*******************************************/
+/*! exports provided: MaterialModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaterialModule", function() { return MaterialModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var materialModules = [
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSidenavModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatToolbarModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatCardModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatListModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatInputModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatButtonModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatRadioModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatIconModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatMenuModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatNativeDateModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDatepickerModule"],
+    _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialogModule"]
+];
+var MaterialModule = /** @class */ (function () {
+    function MaterialModule() {
+    }
+    MaterialModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: materialModules,
+            exports: materialModules,
+            providers: [
+                {
+                    provide: _angular_material__WEBPACK_IMPORTED_MODULE_1__["MATERIAL_SANITY_CHECKS"],
+                    useValue: false
+                }
+            ]
+        })
+    ], MaterialModule);
+    return MaterialModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/shared/shared.module.ts":
+/*!*****************************************!*\
+  !*** ./src/app/shared/shared.module.ts ***!
+  \*****************************************/
+/*! exports provided: SharedModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SharedModule", function() { return SharedModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _material_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./material.module */ "./src/app/shared/material.module.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var sharedModules = [
+    _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+    _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+    _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
+    _material_module__WEBPACK_IMPORTED_MODULE_4__["MaterialModule"]
+];
+var SharedModule = /** @class */ (function () {
+    function SharedModule() {
+    }
+    SharedModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"])({
+            imports: sharedModules,
+            exports: sharedModules
+        })
+    ], SharedModule);
+    return SharedModule;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/videos/videos.component.css":
 /*!*********************************************!*\
   !*** ./src/app/videos/videos.component.css ***!
@@ -1965,7 +2034,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\ra20043636\Documents\GitHub\crud\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\Angular\Practice\crud\src\main.ts */"./src/main.ts");
 
 
 /***/ })

@@ -9,7 +9,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.6b156c683f8b42f64502.js",
+        "/main.059d92b1d3fafcf08386.js",
         "/polyfills.f6ae3e8b63939c618130.js",
         "/runtime.ec2944dd8b20ec099bf3.js",
         "/styles.8d139376af49508cf8ef.css"
@@ -66,8 +66,8 @@
     "/assets/icons/icon-96x96.png": "e0245e7f45dedb9cfaa6ac1c561631676b89fd1e",
     "/assets/img/map.svg": "f33d2b9b6c064affcf0473302a35011849caecd3",
     "/favicon.ico": "b9d4c600afc6af05c25979d14020af4d7aed32d8",
-    "/index.html": "32fc45f4eda86f9c2a6d12932cb0f10009f408e3",
-    "/main.6b156c683f8b42f64502.js": "6573e158dc05b2f2ebb3bb956a49687a95b99250",
+    "/index.html": "1d89b19a3500a3ccfbab57b8215649f41d13e577",
+    "/main.059d92b1d3fafcf08386.js": "62939c6899ef73a6c31a6e50cc1eb4cd96433185",
     "/polyfills.f6ae3e8b63939c618130.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
     "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/styles.8d139376af49508cf8ef.css": "ab71b5dc572636fad34866b7ba6c90d84ac8b0c8"
